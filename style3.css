@@ -75,12 +75,6 @@ a:hover{
 a:active{
     color: violet;
 }
-:root{
-    background:slateblue;
-}
-::placeholder{
-    color: maroon;
-}
 ::selection{
     color: green;
     background-color: yellow;
