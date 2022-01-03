@@ -1,0 +1,156 @@
+.name{
+    color:magenta;
+    text-align: center;
+    font-weight:bolder;
+}
+p{
+    background-color: mediumturquoise;
+text-align: justify;
+font-size: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.regorlog{
+color: darkgreen;
+background-color: darkgrey;
+border-style: dotted;
+border-color: cyan red green yellow;
+border-radius: 50px;
+margin: 200px 200px;
+padding: 50px 50px;
+background-image: url(../images/tuhin.jpg);
+}
+.career{
+    color: rgb(17, 125, 161);
+text-align: center;
+}
+#footer{
+    color: darkgreen;
+text-align: center;
+background-color: darkorange;
+height: 50px;
+padding-top: 25px;
+font-size: 20px;
+}
+.myfamily{
+    color: lime;
+    font-weight: bolder;
+}
+.study{
+
+    background-color: darkgrey;
+    font-family: 'Times New Roman', Times, serif;
+}
+.courses{
+    text-align: center;
+}
+.link{
+    display: inline-block;
+}
+.address{
+    color: red;
+}
+.divide{
+    background-color:rebeccapurple;
+    height: 20px;
+    border-style: inset;
+}
+.bam{
+    float:right;
+}
+.dan{
+    float: right;
+}
+div p{
+    background-color:darkorange;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: yellow;
+}
+a:active{
+    color: violet;
+}
+:root{
+    background:slateblue;
+}
+::placeholder{
+    color: maroon;
+}
+::selection{
+    color: green;
+    background-color: yellow;
+}
+div{
+    background-color: red;
+    width: 600px;
+    height: 600px;
+    border: 5px dotted yellow;
+    overflow: scroll;
+}
+@media screen and (max-width:992px) {
+    body {
+        background-color: blue;
+    }
+}
+.container {
+    position: relative;
+  }
+  
+  .black-box {
+    position: relative;
+    z-index: 1;
+    border: 2px solid black;
+    height: 100px;
+    margin: 30px;
+  }
+  
+  .gray-box {
+    position: absolute;
+    z-index: 3; /* gray box will be above both green and black box */
+    background: lightgray;
+    height: 60px;  
+    width: 70%;
+    left: 50px;
+    top: 50px;
+  }
+  
+  .green-box {
+    position: absolute;
+    z-index: 2; /* green box will be above black box */
+    background: lightgreen;
+    width: 35%;
+    left: 270px;
+    top: -15px;
+    height: 100px;
+  }
+  span.a {
+    display: inline; /* the default for span */
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;  
+    background-color: yellow; 
+  }
+  
+  span.b {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;    
+    background-color: yellow; 
+  }
+  
+  span.c {
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;    
+    background-color: yellow;
+  }
